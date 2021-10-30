@@ -20,6 +20,6 @@ setup(name='JSONSchema2DB',
       py_modules=['jsonschema2db'],
       install_requires=[
           'change_case>=0.5.2',
-          'iso8601>=0.1.12',
-          'psycopg2>=2.7.2'
+          'iso8601>=0.1.12'
+        #   'psycopg2>=2.7.2'
       ])
